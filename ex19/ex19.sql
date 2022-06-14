@@ -1,2 +1,2 @@
-SELECT TIMESTAMPDIFF(DAY, MIN(last_projection), MAX(last_projection)) AS 'uptime'
-FROM film;
+SELECT TIMESTAMPDIFF(DAY, MIN(date), MAX(date)) AS 'uptime'
+FROM member_history;
